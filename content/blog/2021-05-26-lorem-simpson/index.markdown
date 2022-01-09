@@ -1,9 +1,9 @@
 ---
-title: "Lorem Simpson"
+title: "Economic Burden of snakebites"
 subtitle: ""
 excerpt: "An .Rmarkdown post"
 date: 2021-05-26
-author: "Alison Hill"
+author: "Michael Muhoozi"
 draft: false
 images:
 series:
@@ -12,9 +12,8 @@ categories:
 layout: single
 ---
 
-{{< here >}}
 
-## Some penguins to start
+## Costs Analysis
 
 
 ```r
@@ -22,18 +21,18 @@ library(tidyverse)
 ```
 
 ```
-## ── Attaching packages ─────────────────────────────────────── tidyverse 1.3.0 ──
+## -- Attaching packages --------------------------------------- tidyverse 1.3.1 --
 ```
 
 ```
-## ✓ ggplot2 3.3.3     ✓ purrr   0.3.4
-## ✓ tibble  3.1.2     ✓ dplyr   1.0.5
-## ✓ tidyr   1.1.3     ✓ stringr 1.4.0
-## ✓ readr   1.4.0     ✓ forcats 0.5.1
+## v ggplot2 3.3.5     v purrr   0.3.4
+## v tibble  3.1.1     v dplyr   1.0.6
+## v tidyr   1.1.3     v stringr 1.4.0
+## v readr   1.4.0     v forcats 0.5.1
 ```
 
 ```
-## ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+## -- Conflicts ------------------------------------------ tidyverse_conflicts() --
 ## x dplyr::filter() masks stats::filter()
 ## x dplyr::lag()    masks stats::lag()
 ```
@@ -41,6 +40,8 @@ library(tidyverse)
 ```r
 library(palmerpenguins)
 ```
+
+## Catastrophic Health Expenditure
 
 
 ```r
@@ -62,13 +63,13 @@ ggplot(data = penguins, aes(x = flipper_length_mm)) +
 
 
 
-## Fame was like a drug. But what was even more like a drug were the drugs.
+## Costs of snakebite envenomings in Eastern Uganda.
 
 Jesus must be spinning in his grave! Marge, just about everything's a sin. Y'ever sat down and read this thing? Technically we're not supposed to go to the bathroom. Marge, it takes two to lie. One to lie and one to listen.
 
 Oh, I'm in no condition to drive. Wait a minute. I don't have to listen to myself. I'm drunk. And here I am using my own lungs like a sucker. __How is education supposed to make me feel smarter?__ *Besides, every time I learn something new, it pushes some old stuff out of my brain.* Remember when I took that home winemaking course, and I forgot how to drive?
 
-## What's the point of going out? We're just going to wind up back here anyway.
+## Catastrophic Health Expenditure due to snakebite envenomings in Eastern Uganda.
 
 Uh, no, they're saying "Boo-urns, Boo-urns." Donuts. Is there anything they can't do? Weaseling out of things is important to learn. It's what separates us from the animals…except the weasel. When I held that gun in my hand, I felt a surge of power…like God must feel when he's holding a gun.
 

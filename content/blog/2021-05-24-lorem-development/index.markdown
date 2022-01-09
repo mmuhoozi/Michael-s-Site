@@ -1,9 +1,9 @@
 ---
-title: "Lorem Arrested Development"
-subtitle: "How to add panelsets in R Markdown posts."
+title: "Reproducible science for African Institutions"
+subtitle: "Analysing landscape of reproducible science in Africa"
 excerpt: "Add tabbed sections with code and results."
 date: 2021-05-24
-author: "Alison Hill"
+author: "Michael Muhoozi"
 draft: false
 # layout options: single, single-sidebar
 layout: single
@@ -13,7 +13,7 @@ categories:
 
 {{< here >}}
 
-## But first, panelsets with R code chunks
+## But first, how did we extract studies on reproducible science
 
 {{< panelset class="greetings" >}}
 {{< panel name="Plot" >}}
@@ -31,13 +31,13 @@ plot(pressure)
 {{< /panel >}}
 {{< /panelset  >}}
 
-## I'm half machine. I'm a monster.
+## Publishing landscape about open science in Africa
 
 It's a hug, Michael. I'm hugging you. I'm half machine. I'm a monster. There's only one man I've ever called a coward, and that's Brian Doyle Murray. No, what I'm calling you is a television actor. Bad news. Andy Griffith turned us down. He didn't like his trailer.
 
 No, I did not kill Kitty. However, I am going to oblige and answer the nice officer's questions because I am an honest man with no secrets to hide. Guy's a pro. Really? __Did nothing cancel?__ *Get me a vodka rocks.* And a piece of toast.
 
-## No… but I'd like to be asked!
+## So, how is Uganda performing?
 
 Oh, you're gonna be in a coma, all right. Steve Holt! I hear the jury's still out on science. No, I did not kill Kitty. However, I am going to oblige and answer the nice officer's questions because I am an honest man with no secrets to hide.
 
@@ -45,7 +45,7 @@ Oh, you're gonna be in a coma, all right. Steve Holt! I hear the jury's still ou
 2. That's what it said on 'Ask Jeeves.'
 3. Get me a vodka rocks. And a piece of toast.
 
-### That's what it said on 'Ask Jeeves.'
+### What about reproducibility journal clubs?
 
 Did you enjoy your meal, Mom? You drank it fast enough. What's Spanish for "I know you speak English?" Bad news. Andy Griffith turned us down. He didn't like his trailer. Really? Did nothing cancel? I care deeply for nature.
 

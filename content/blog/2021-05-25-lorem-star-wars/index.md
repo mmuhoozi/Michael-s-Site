@@ -1,9 +1,9 @@
 ---
-title: "Lorem Star Wars"
-subtitle: "How to add panelsets in plain markdown posts."
+title: "Analysis of Makerere University Research and Innovations Funding Landscape "
+subtitle: "Analysis areas of investment for RIF through data scrapping."
 excerpt: "Add tabbed sections to your posts."
 date: 2021-05-25
-author: "Alison Hill"
+author: "Michael"
 draft: false
 # layout options: single, single-sidebar
 layout: single
@@ -11,9 +11,9 @@ categories:
 - Theme features
 ---
 
-{{< here >}}
 
-## But first, a shortcode trick
+
+## But first, how did we obtain the data
 
 Courtesy of panelset.js by Garrick Aden-Buie, from his xaringanExtra package: https://pkg.garrickadenbuie.com/xaringanExtra/#/panelset
 
@@ -41,13 +41,13 @@ Was created by combining this theme's `panelset` and `panel` shortcodes:
 {{</* /panelset */>}}
 ```
 
-## Escape is not his plan. I must face him, alone.
+## Makerere University Research and Innovations Funding Priorities.
 
 I'm surprised you had the courage to take the responsibility yourself. I don't know what you're talking about. I am a member of the Imperial Senate on a diplomatic mission to Alderaan-- Kid, I've flown from one side of this galaxy to the other. I've seen a lot of strange stuff, but I've never seen anything to make me believe there's one all-powerful Force controlling everything. There's no mystical energy field that controls my destiny. It's all a lot of simple tricks and nonsense.
 
 What good is a reward if you ain't around to use it? Besides, attacking that battle station ain't my idea of courage. __It's more like…suicide.__ *I have traced the Rebel spies to her.* Now she is my only link to finding their secret base.
 
-## Still, she's got a lot of spirit. I don't know, what do you think?
+## Makerere University Research and Innovations Funding gaps
 
 Still, she's got a lot of spirit. I don't know, what do you think? Dantooine. They're on Dantooine. I'm trying not to, kid. You are a part of the Rebel Alliance and a traitor! Take her away! A tremor in the Force. The last time I felt it was in the presence of my old master.
 
@@ -55,7 +55,7 @@ Still, she's got a lot of spirit. I don't know, what do you think? Dantooine. Th
 2. Don't be too proud of this technological terror you've constructed. The ability to destroy a planet is insignificant next to the power of the Force.
 3. Don't act so surprised, Your Highness. You weren't on any mercy mission this time. Several transmissions were beamed to this ship by Rebel spies. I want to know what happened to the plans they sent you.
 
-### You don't believe in the Force, do you?
+### Way forward for research in Uganda 
 
 I need your help, Luke. She needs your help. I'm getting too old for this sort of thing. In my experience, there is no such thing as luck. What!? I suggest you try it again, Luke. This time, let go your conscious self and act on instinct.
 

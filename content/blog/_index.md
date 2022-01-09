@@ -1,8 +1,7 @@
 ---
-title: A Blog That Works
+title: Academic Blog  
 description: |
-  This is a fully featured blog that supports categories, 
-  tags, series, and pagination.
+  This is a fully featured blog for my work in academia.
 author: "Michael Muhoozi"
 show_post_thumbnail: true
 show_author_byline: true
