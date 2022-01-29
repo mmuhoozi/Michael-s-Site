@@ -1,9 +1,11 @@
 ---
-title: "Palmer Penguins"
+title: "Cost of AEFI for Measles Rubella Study"
 subtitle: ""
-excerpt: "Grid is the very first CSS module created specifically to solve the layout problems we’ve all been hacking our way around for as long as we’ve been making websites."
-date: 2019-07-02
-author: "Eric Anderson"
+excerpt: "This study estimated the costs of management adverse events following immunization in a mass vaccination campaign in Eastern Uganda. The ability to capture institutional and non-institutional costs provides an opportunity to devise strategies to prevent catastrophic health expenditures that later on culminate into vaccine hesitancy."
+date: 2022-01-29
+author: "Michael Muhoozi"
+bibliography: citations.bib
+link-citations: TRUE
 draft: false
 tags:
 - hugo-site
@@ -28,42 +30,36 @@ links:
   url: https://education.rstudio.com/blog/2020/07/palmerpenguins-cran/
 ---
 
-{{< here >}}
 
-### “Grid is the very first CSS module created specifically to solve the layout problems we've all been hacking our way around for as long as we've been making websites.”
+### “This study provided cost estimates for Adverse Events Following Imunization in Eastern Uganda from societal perspective.These were collected alongside an active vaccine pharmacovigilance study in Iganga Mayuge Health Demography surveillance site.”
 
-*— [Chris House, A Complete Guide to CSS Grid Layout](http://chris.house/blog/a-complete-guide-css-grid-layout/)* [^1]
+*— [Cohort Profile, A detailed description of the surveillance site.](https://academic.oup.com/ije/article/49/4/1082/5859703)* [^1]
 
 ---
+### Introduction
 
 Since I began building websites in Y2K, I've lost count how many times the phrase "...there's got to be a better way to do this" has passed my lips. Most times, while fighting with floats and widths of content and sidebars or just basically trying to get something beside something else without using a stupid `TABLE`.
 
 Well, technology sure has come a long way since slicing up images to match the table-based layout that was just created in Dreamweaver. You'd be surprised (or maybe you wouldn't) how challenging the standard header, content, sidebar, footer layout could be to actually get right.
 
-{{< figure src="css-grid-cover.png" alt="Traditional right sidebar layout" caption="A visual example of the traditional right sidebar layout" >}}
 
 ---
 
-### <dfn title="Ermahgerd is a humorous version of the phrase oh my god, written as though pronounced with a heavy influence of extra Rs. It's meant to imitate the sound of someone speaking through a retainer.">ERMAHGERD</dfn>
+### <dfn title="Findings contains a summary of methods and results used in the study.">FINDINGS</dfn>
 
-A proper grid is what we always wanted, no ... _needed_ to build websites with a solid, unbreakable structure. And that's why I used it in this theme. I call this feature a "scaffold" because none of the _content_ is laid out on this grid. Only the main _structure_: consisting of the `header`, `footer`, `main`, `aside`, and `footer`. As you can tell by this quote from the [W3C](https://www.w3.org/TR/css-grid-1/) on the candidate recommendation itself, Grid is the perfect tool for the job:
+Caregivers with children in inpatient care experienced significantly higher direct costs compared to those in outpatient care (UGX 82,167 compared with UGX 10,501, p < 0.01). There was no significant difference in indirect costs. 
+Caregivers with severe AEFI were fewer (4.8%) compared to those that had children with mild (76.2%) and moderate (19.0%) AEFI. Caregivers with mild AEFI spent significantly lower direct and indirect costs.
+Longer lengths of stay (1 days or more) meant higher direct and indirect costs. There was no significant difference in costs (direct and indirect) for caregivers that spent less than a day and those who spent more one day
 
-> ##### CSS Grid Layout Module
+> ##### Take home
 >
-> This CSS module defines a two-dimensional grid-based layout system, optimized for user interface design. In the grid layout model, the children of a grid container can be positioned into arbitrary slots in a predefined flexible or fixed-size layout grid.
+> Caregivers in private for-profit facilities incurred higher costs compared to both public and private not-for-profit healthcare facilities. More so, direct medical costs contributed a bigger portion for out of pocket expenditures in outpatient and inpatient care. Private for profit especially drug shops have acted as the first resort for acquisition of drugs to treat AEFI. This is because the retail drug shops have been known to offer over-the-counter drugs (and sometimes other products) quickly for management of some pediatric illnesses like fever in rural areas in Uganda.[@Mayora2018] To achieve the Sustainable Development Goal (SDG) target of attainment of Universal Health Coverage (UHC), Uganda’s population has to be protected from Catastrophic Health Expenditures (CHE).[@ssengooba2017universal] 
 >
-> — _W3C_
+> — _Mike_
 
-CSS Grid is a total game changer, IMHO. Compared to the bottomless pit of despair that is the old way, the new way of building a site structure can be done in as little as 5 lines of CSS. Of course, it always takes more than that, but not much. I mean this is really the meat of the deal:
 
-```css
-.grid-container {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: repeat(3, auto);
-}
-```
 
-#### What an amazing time to be a web developer. Anyway, I hope you enjoy this "feature" that you'll probably never notice or even see. Maybe that's the best part of a good user interface – the hidden stuff that just works.
+#### Amazing findings that play an important role in justifying investment in AEFI surveillance and  decision making for influencing community perceptions to determine whether to vaccinate.
 
-[^1]: The original article cited here is now updated and maintained by the staff over at CSS-Tricks. Bookmark their version if you want to dive in and learn about CSS Grid: [A Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
+
+[^1]: Cohort Profile: The Iganga-Mayuge Health and Demographic Surveillance Site, Uganda (IMHDSS, Uganda): [Cohort Profile, A detailed description of the surveillance site.](https://academic.oup.com/ije/article/49/4/1082/5859703)
