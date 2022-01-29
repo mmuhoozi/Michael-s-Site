@@ -1,9 +1,9 @@
 ---
-title: "Tachyons for Style"
-subtitle: "A tachyon /ˈtæki.ɒn/ or tachyonic particle is a hypothetical particle that always moves faster than light."
-excerpt: "Building this static site generator theme was the first time I used an Atomic (or Functional) CSS system like Tachyons. It’s a design system that provides very small (which means fast) CSS modules that you can use in your HTML."
-date: 2019-07-03
-author: "Eric Anderson"
+title: "Economic Burden of Snakebites"
+subtitle: " This project estimated the economic burden of snakebites in Eastern Uganda. This work was supported a NIHR-RSTMH’s 2021 Small Grants Programme under supervision of Makerere University School of Public Health."
+excerpt: "This project estimated the economic burden of snakebites in Eastern Uganda. This work was supported a NIHR-RSTMH’s 2021 Small Grants Programme under supervision of Makerere University School of Public Health."
+date: 2022-01-29
+author: "Michael Muhoozi"
 draft: false
 tags:
   - hugo-site
@@ -15,113 +15,38 @@ categories:
 layout: single
 ---
 
-{{< here >}}
 
-![Tachyons Logo Script](tachyons-logo-script.png)
+![Tachyons Logo Script](tachyons-logo-script.jpg)
 
-## [Tachyons](http://tachyons.io) is a design system that allows you to design gorgeous interfaces in the browser with little effort.
+## The burden of [Snakebite Envenoming](https://www.who.int/news-room/fact-sheets/detail/snakebite-envenoming) is significant especially to the Low-middle income countries.In Sub-Saharan Africa, 314,000 snakebite envenomings cause between 5,900 to 14,600 amputations and 7,000 to 32,000 deaths annually.
 
 ---
 
-### Because Speed
+### Introduction
 
-Building this static site generator theme was the first time I used an Atomic
-(or Functional) CSS system like Tachyons. It's a design system that provides
-very small (which means fast) CSS modules that you can use in your HTML. So,
-rather than writing every line of CSS, you apply the style you need as you write
-your HTML with easy to understand shorthand class names. This makes for a very
-powerful way to style, in the browser, or while building a static site like this
-one – since you can see every change with every save. **It's a joy to use.**
+Snakebites envenoming is a significant, but long-neglected problem that affects the poor communities in rural areas in Uganda. Victims of snake bites continue to use local remedies which result into unaccounted for socio-economic impacts and unwanted health outcomes like death and disability. Households continue to spend out of pocket on snakebites and are further pushed into poverty. Making a case for investment into changing the situation requires estimates of the real economic burden of snakebites envenoming. The study retrospectively estimated the economic burden of snakebites envenoming in Kamuli and Mayuge districts of Eastern Uganda from recent survey.
 
-In using this theme for your next static website project, you won't need to know
-anything about Tachyons ... so, don't freak out. Even though I used it to style
-the theme, you won't need to change a thing. BUT, if you do want to play around
-with it, you can make massive changes very easily. Just familiarize yourself
-with the [clear documentation on the design system](http://tachyons.io/docs/).
-Once you dive in, you'll recognize all the classes I'm using in the markup.
+### Aims or objectives of the study
+1. To estimate cost of treatment and productivity losses for snakebites envenoming by socio-economic status and location of care to understand their economic impact.
+2. To examine the distribution of the economic burden of snakebites envenoming by household socio-economic status, service provider status, age, gender and residence.
+3. To determine catastrophic health expenditures related to the incident of a snake bite by asset quintile.
 
-### BYOTachyons
+### Study design
+This was an incidence-based study with an ingredient-based approach to estimate the cost of treatment and productivity loss of a snakebite envenoming from the societal and household
+perspectives. This relied on follow-up of snakebites victims in recent community and health facility [survey conducted at Makerere University School of Public Health] (https://sph.mak.ac.ug/events/dissemination-seminar-burden-snakebite-and-snakebite-envenoming-uganda-community-survey-and).
 
-One of the best features of Tachyons is the exhaustive [component
-library](https://www.tachyonstemplates.com/components/?selectedKind=AboutPages&selectedStory=AboutUs&full=0&down=0&left=1&panelRight=0)
-contributed by the community. All those components are built to work with the
-Tachyons classes, so they will work in this theme too! You can copy/paste
-components in order to quickly block out a page, then fill in your content.
+## Study population and sites
+Two districts from Eastern Uganda with the highest incidence cases were visited for household survey. Health care facilities representing all levels in the district were selected: 4 public, 2 private for-profit, and 2 private not-for-profit facilities. Interviews were conducted with administrators, relevant health workers and managers of the health care facilities and the district health offices to obtain cost data.
+All 285 snake bite victims identified in Eastern Uganda from the community and hospital based survey (which previously used snake expert), were considered for interview. 
+To collect health system costs, a survey was administered to collect equipment, annual overhead, medical staff wages and benefits, drug and medical supply pricing. Another tool was designed to capture patients and caregivers at follow-up through a telephone interview to record out-of- pocket payments incurred. 
 
-### Taste the Rainbow
+##Costing approaches
+All costs including overhead, labor and capital costs were collected. Capital costs were [annualized; and apportionment] (https://ghcosting.org/pages/standards/reference_case) of shared costs was also done accordingly. Human capital approach was used to estimate indirect costs; estimated by a product of time loss getting care and average income of household head.
 
-We've leveraged the [accessible color
-combinations](http://tachyons.io/docs/themes/skins/) included with Tachyons to
-offer an easy way for you to setup your site using your favorite colors. In the
-site configuration file (`config.toml`), there is a full set of color parameters
-giving you control over the theme color scheme. For an option like `siteBgColor`
-for example, you can just type one of the predefined color names from Tachyons
-and save the file. You can totally customize the theme colors within minutes of
-installing the theme.
+The study also determined societal costs using a combination of the costs borne by the snake bite victims and the health care system. The study assumed that all costs of private facilities are incurred by the caregiver. Differences within direct and indirect costs for a snakebite event and socio-economic status, service provider status, age, gender and residence were tested using relevant [statistical test] (https://pubmed.ncbi.nlm.nih.gov/17030551/).
 
-```toml
-# basic color options: use only color names as shown in the
-# "Color Palette" section of http://tachyons.io/docs/themes/skins/
-siteBgColor = "near-white"
-sidebarBgColor = "light-gray"
-headingColor = "black"
-textColor = "dark-gray"
-sidebarTextColor = "mid-gray"
-bodyLinkColor = "blue"
-navLinkColor = "near-black"
-sidebarLinkColor = "near-black"
-footerTextColor = "silver"
-buttonTextColor = "near-white"
-buttonBgColor = "black"
-buttonHoverTextColor = "white"
-buttonHoverBgColor = "blue"
-borderColor = "moon-gray"
-```
+##Catastrophic health expenditures
+CHE was calculated using direct costs over the annually income and expenditures for households visited. Data collected on expenditures comprised of food, clothing, supplies, leisure, tax paid, other healthcare expenses and other expenses including going to traditional herbalists and healers. A household experienced catastrophic health expenditures if it spent more than the following thresholds on an event of a snake bite: 10% of its income, 25% of its monthly expenditures or 40% of its monthly expenditures without food [13]. 
 
-### Dig Deeper
-
-Let's say you have a style guide to follow and `washed-blue` just won't cut the
-mustard. We built Blogophonic for you, too. There is a bypass of these
-predefined colors built in, you just need to dig a little deeper. In the theme
-assets, locate and open the main SCSS file (`/assets/main.scss`). After the
-crazy looking variables you probably don't recognize and directly following the
-Tachyons import (`@import 'tachyons';`) you'll see a comment that looks just
-like this:
-
-```scss
-// uncomment the import below to activate custom-colors
-// add your own colors at the top of the imported file
-// @import 'custom-colors';
-```
-
-Once you uncomment the `custom-colors` import, it will look like this:
-
-```scss
-// uncomment the import below to activate custom-colors
-// add your own colors at the top of the imported file
-@import "custom-colors";
-```
-
-Save that change, and now the color options in the `config.toml` are no longer
-active – they've been bypassed. To customize the colors, locate and open the
-`custom-colors` file found in the theme assets (`/assets/custom-colors.scss`).
-At the top of that file, you'll find a whole new set of variables for all the
-same color options, but this time you get to assign your own HEX codes.
-
-```scss
-// set your custom colors here
-$siteBgColorCustom: #e3e3da;
-$sidebarBgColorCustom: #dbdbd2;
-$textColorCustom: #666260;
-$sidebarTextColorCustom: #666260;
-$headingColorCustom: #103742;
-$bodyLinkColorCustom: #c4001a;
-$navLinkColorCustom: #c4001a;
-$sidebarLinkColorCustom: #c4001a;
-$footerTextColorCustom: #918f8d;
-$buttonTextColorCustom: #f7f7f4;
-$buttonHoverTextColorCustom: #f9f9f8;
-$buttonBgColorCustom: #103742;
-$buttonHoverBgColorCustom: #c4001a;
-$borderColorCustom: #c4beb9;
-```
+### Expected outcomes
+The study is still a work in progress.A summary of results will be provided and generated research reports will be shared with [Royal Society of Tropical Medicine and Hygiene] (https://rstmh.org/). A policy brief to stakeholders in Neglected Tropical Disease department will be developed and reviewed by the supervisor. A peer reviewed publication will then be pursued in internationally recognized journals.
